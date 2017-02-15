@@ -18,10 +18,15 @@
                 <a class="navbar-brand" href="resources/IanHarris2017Resume.pdf">Ian Harris</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <!-- Basic site nav -->
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="projects.html">Leadership</a></li>
+                    <li class="dropdown"><a href="projects.html" data-toggle="dropdown" class="dropdown-toggle, active">Projects <b class="caret"></b></a>
+                        <ul class="dropdown-menu" id="projects-menu">
+                            <li><a href="AnalyzeIT">AnalyzeIT</a></li>
+                            <li><a href="#">Admin Tools</a></li>
+                            <li><a href="#">Project Harbor</a></li>
+                        </ul>
+                    </li>
                     <li><a href="workexp.html">Work</a></li>
                     <li><a href="seniordesign.html">Senior Design</a></li>
                 </ul>
@@ -30,8 +35,8 @@
                     <li><a href="https://www.linkedin.com/in/ian-harris-02384182">LinkedIn</a></li>
                     <li><a href="https://github.com/FriscoeHotsauce">Github</a></li>
                 </ul>
-            </div>
-        </div>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
     </nav>
 
 <!-- Bootstrap core JavaScript
